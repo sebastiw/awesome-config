@@ -485,8 +485,19 @@ awful.rules.rules = {
     },
 
     -- Set Firefox to always map on the tag named "2" on screen 1.
-    -- { rule = { class = "Firefox" },
-    --   properties = { screen = 1, tag = "2" } },
+    { rule = { class = "Firefox" },
+      properties = { screen = 1, tag = "1" } },
+
+    { rule = { class = "emacs" },
+      properties = { screen = 1, tag = "3" } },
+    { rule = { class = "ec" },
+      properties = { screen = 1, tag = "3" } },
+
+    { rule = { class = "gnome-terminal" },
+      properties = { screen = 1, tag = "4" } },
+
+    { rule = { class = "spotify" },
+      properties = { screen = 1, tag = "9" } },
 }
 -- }}}
 
