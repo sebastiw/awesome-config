@@ -12,3 +12,4 @@ setxkbmap -layout seba
 run firefox
 run ec
 run gnome-terminal
+run spotify
